@@ -136,7 +136,6 @@
 
 | Command | Description |
 |---|---|
-| `ps` | Running process |
 | `ps aux` | Detailed process |
 | `ps -ef` | Process list |
 | `top` | CPU & RAM usage |
