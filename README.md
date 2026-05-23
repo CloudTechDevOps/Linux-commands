@@ -259,6 +259,7 @@ mount /dev/xvdb /mnt/data
 ---
 
 ## Resize Volume
+#Because increasing the volume in the AWS console only enlarges the virtual disk device — it does not automatically modify the internal Linux partition table or filesystem.
 
 ```bash
 growpart /dev/xvda 1 #
@@ -266,8 +267,9 @@ growpart /dev/xvda 1 #
 
 ``` bash
 xfs_growfs /dev/xvda1
----
+```
 
+```
 # 📂 EFS Commands
 
 ## Install EFS Utils
