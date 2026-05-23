@@ -245,7 +245,7 @@ nmap -p- <target-ip>
 ## Format Volume
 
 ```bash
-mkfs.ext4 /dev/xvdb
+mkfs.ext4 /dev/xvdb 
 ```
 
 ---
@@ -261,7 +261,7 @@ mount /dev/xvdb /mnt/data
 ## Resize Volume
 
 ```bash
-growpart /dev/xvda 1
+growpart /dev/xvda 1 #
 ```
 
 ``` bash
