@@ -264,6 +264,8 @@ mount /dev/xvdb /mnt/data
 growpart /dev/xvda 1
 ```
 
+``` bash
+xfs_growfs /dev/xvda1
 ---
 
 # 📂 EFS Commands
